@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		E169A869207E6F3C0072F499 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E169A868207E6F3C0072F499 /* AppDelegate.swift */; };
-		E169A86B207E6F3C0072F499 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E169A86A207E6F3C0072F499 /* FirstViewController.swift */; };
-		E169A86D207E6F3C0072F499 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E169A86C207E6F3C0072F499 /* SecondViewController.swift */; };
 		E169A870207E6F3C0072F499 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E169A86E207E6F3C0072F499 /* Main.storyboard */; };
 		E169A872207E6F3C0072F499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E169A871207E6F3C0072F499 /* Assets.xcassets */; };
 		E169A875207E6F3C0072F499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E169A873207E6F3C0072F499 /* LaunchScreen.storyboard */; };
 		E169A880207E6F3D0072F499 /* DoyouspeakwineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E169A87F207E6F3D0072F499 /* DoyouspeakwineTests.swift */; };
 		E169A88B207E6F3D0072F499 /* DoyouspeakwineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E169A88A207E6F3D0072F499 /* DoyouspeakwineUITests.swift */; };
+		E17FE36C209A1CC3005F62DE /* WordListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17FE36B209A1CC3005F62DE /* WordListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +36,6 @@
 /* Begin PBXFileReference section */
 		E169A865207E6F3C0072F499 /* Doyouspeakwine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doyouspeakwine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E169A868207E6F3C0072F499 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E169A86A207E6F3C0072F499 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		E169A86C207E6F3C0072F499 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E169A86F207E6F3C0072F499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E169A871207E6F3C0072F499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E169A874207E6F3C0072F499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +46,7 @@
 		E169A886207E6F3D0072F499 /* DoyouspeakwineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoyouspeakwineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E169A88A207E6F3D0072F499 /* DoyouspeakwineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoyouspeakwineUITests.swift; sourceTree = "<group>"; };
 		E169A88C207E6F3D0072F499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E17FE36B209A1CC3005F62DE /* WordListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				E169A868207E6F3C0072F499 /* AppDelegate.swift */,
-				E169A86A207E6F3C0072F499 /* FirstViewController.swift */,
-				E169A86C207E6F3C0072F499 /* SecondViewController.swift */,
+				E17FE36B209A1CC3005F62DE /* WordListTableViewController.swift */,
 				E169A86E207E6F3C0072F499 /* Main.storyboard */,
 				E169A871207E6F3C0072F499 /* Assets.xcassets */,
 				E169A873207E6F3C0072F499 /* LaunchScreen.storyboard */,
@@ -264,9 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E169A86D207E6F3C0072F499 /* SecondViewController.swift in Sources */,
 				E169A869207E6F3C0072F499 /* AppDelegate.swift in Sources */,
-				E169A86B207E6F3C0072F499 /* FirstViewController.swift in Sources */,
+				E17FE36C209A1CC3005F62DE /* WordListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
