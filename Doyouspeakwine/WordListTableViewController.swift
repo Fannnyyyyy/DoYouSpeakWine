@@ -12,6 +12,8 @@ import UIKit
 
 class WordListTableViewController: UITableViewController {
 	
+	var words : [String] = ["cépage", "chardonnay", "appellation"]
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
@@ -21,12 +23,13 @@ class WordListTableViewController: UITableViewController {
 	
 	/* La tableview (mon tableau) demande à la Worldlisttvc (le controller) combien de cellules afficher */
 	override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-		return 1
+		return words.count
 	}
 	
 	override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 		let cell = tableView.dequeueReusableCell(withIdentifier: "WordCell", for: indexPath)
-		cell.textLabel?.text = "mot"
+		let cellNumber = indexPath.row
+		cell.textLabel?.text = words[cellNumber]
 		return cell
 	}
 	
