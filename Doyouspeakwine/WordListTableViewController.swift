@@ -17,8 +17,15 @@ class WordListTableViewController: UITableViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		title = "Dico"
-		navigationItem.title = "Doyouspeakwine, les mots du vin"
+		/* On utilise le même view controlleur pour deux vues dans l'application.
+		 * Le if ci-dessous permet d'avoir un titre différent en fonction de la vue
+		 * qui est affichée. */
+		if navigationController?.restorationIdentifier == "Home" {
+			title = "Dico"
+			navigationItem.title = "Doyouspeakwine"
+		} else {
+			title = "Mes mots"
+		}
 	}
 
 	// MARK: - Table view data source
