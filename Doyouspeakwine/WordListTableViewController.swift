@@ -12,11 +12,13 @@ import UIKit
 
 class WordListTableViewController: UITableViewController {
 	
-	var words : [String] = ["cépage", "chardonnay", "appellation"]
+	var words : [String] = ["Cépage", "Chardonnay", "Appellation"]
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		title = "Dico"
+		navigationItem.title = "Doyouspeakwine, les mots du vin"
 	}
 
 	// MARK: - Table view data source
