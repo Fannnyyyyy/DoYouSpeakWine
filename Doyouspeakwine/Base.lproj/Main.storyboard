@@ -99,7 +99,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="XN5-ab-ClO" kind="show" id="QUS-Vp-EiX"/>
+                                    <segue destination="XN5-ab-ClO" kind="show" identifier="ShowWord" id="QUS-Vp-EiX"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -180,6 +180,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1YL-zR-2Cr"/>
+        <segue reference="qV0-2C-PK6"/>
     </inferredMetricsTieBreakers>
 </document>

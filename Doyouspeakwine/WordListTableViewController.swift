@@ -42,4 +42,9 @@ class WordListTableViewController: UITableViewController {
 		return cell
 	}
 	
+	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+		
+		print ("toto")
+	}
+	
 }
