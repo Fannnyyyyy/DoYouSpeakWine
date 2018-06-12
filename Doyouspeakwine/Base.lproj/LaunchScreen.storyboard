@@ -29,12 +29,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-blanc" translatesAutoresizingMaskIntoConstraints="NO" id="sWn-6b-7Ob">
+                                <rect key="frame" x="8" y="250" width="304" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="UeR-N3-PTO"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.99080653442304178" green="1" blue="0.45316805217312628" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="sWn-6b-7Ob" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="8" id="9Co-MX-Mq7"/>
+                            <constraint firstItem="sWn-6b-7Ob" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Ffv-kJ-3uv"/>
                             <constraint firstItem="vlN-p9-Hqq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="VDa-vA-80d"/>
                             <constraint firstItem="vlN-p9-Hqq" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-150" id="diQ-MM-a88"/>
+                            <constraint firstAttribute="trailing" secondItem="sWn-6b-7Ob" secondAttribute="trailing" constant="8" id="eK5-2p-l5o"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -44,7 +53,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.5" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo-blanc" width="1180" height="411"/>
+    </resources>
 </document>
