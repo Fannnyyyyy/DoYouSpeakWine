@@ -12,7 +12,11 @@ import UIKit
 
 class WordListTableViewController: UITableViewController {
 	
-	var words : [String] = ["Cépage", "Chardonnay", "Appellation"]
+	var words : [Definition] = [
+		Definition.init(word : "Cépage", definition : "blah blah Cépage", images: [], relatedWords: []),
+		Definition(word : "Appellation", definition : "blah blah Appellation", images: [], relatedWords: []),
+		Definition(word : "Chardonnay", definition : "blah blah Chardonnay", images: [], relatedWords: []),
+	]
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -38,7 +42,7 @@ class WordListTableViewController: UITableViewController {
 	override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 		let cell = tableView.dequeueReusableCell(withIdentifier: "WordCell", for: indexPath)
 		let cellNumber = indexPath.row
-		cell.textLabel?.text = words[cellNumber]
+		cell.textLabel?.text = words[cellNumber].word
 		return cell
 	}
 	
