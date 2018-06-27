@@ -47,8 +47,13 @@ class WordListTableViewController: UITableViewController {
 	}
 	
 	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+		let wordDetailViewControler = segue.destination as! WordDetailViewController
+		guard let selectedIndex = tableView.indexPathForSelectedRow?.row else {
+			return
+		}
 		
-		print ("toto")
+		let selectedDefinition = words[selectedIndex]
+		wordDetailViewControler.definition = selectedDefinition
 	}
 	
 }

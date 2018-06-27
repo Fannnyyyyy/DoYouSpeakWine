@@ -12,8 +12,12 @@ import UIKit
 
 class WordDetailViewController: UIViewController {
 	
+	var definition : Definition!
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		
+		print(definition.word)
 	}
 	
 }
