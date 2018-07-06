@@ -47,12 +47,16 @@ class WordListTableViewController: UITableViewController {
 	}
 	
 	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+		/* Create a constant containing the destination of the segue, as a WordDetailViewController. Note: If the destination of the segue is not a WordDetailViewController, the app will crash. We _KNOW_ it is (at least for the time being). */
 		let wordDetailViewControler = segue.destination as! WordDetailViewController
+		/* Means: Make sure the row of the indexpath for the selected row of the table view is not nil, and if it is not, assign it to the selectedIndex constant. */
 		guard let selectedIndex = tableView.indexPathForSelectedRow?.row else {
 			return
 		}
 		
+		/* Create a constant named selectedDefinition which contains the element at index “selectedIndex” in the words array */
 		let selectedDefinition = words[selectedIndex]
+		/* Dit au wdvc récupère le contenu de la variable selectedDefinition qui se met dans la variable definition */
 		wordDetailViewControler.definition = selectedDefinition
 	}
 	
