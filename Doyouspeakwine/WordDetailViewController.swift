@@ -13,12 +13,15 @@ import UIKit
 class WordDetailViewController: UIViewController {
 	
 	var definition : Definition!
+	@IBOutlet var labelDefinition : UILabel!
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
 		title=definition.word
 		print(definition.word)
+		labelDefinition.text=definition.definition
+	
 	}
 	
 }
