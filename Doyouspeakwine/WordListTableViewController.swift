@@ -12,10 +12,10 @@ import UIKit
 
 class WordListTableViewController: UITableViewController {
 	
-	var words : [Definition] = [
-		Definition.init(word : "Cépage", definition : "blah blah Cépage", images: [], relatedWords: []),
-		Definition(word : "Appellation", definition : "blah blah Appellation", images: [], relatedWords: []),
-		Definition(word : "Chardonnay", definition : "blah blah Chardonnay", images: [], relatedWords: []),
+	var words : [WordDescription] = [
+		WordDescription.init(word : "Cépage", definition : "blah blah Cépage", images: [], relatedWords: []),
+		WordDescription(word : "Appellation", definition : "blah blah Appellation", images: [], relatedWords: []),
+		WordDescription(word : "Chardonnay", definition : "blah blah Chardonnay", images: [], relatedWords: []),
 	]
 	
 	override func viewDidLoad() {
@@ -56,8 +56,8 @@ class WordListTableViewController: UITableViewController {
 		
 		/* Create a constant named selectedDefinition which contains the element at index “selectedIndex” in the words array */
 		let selectedDefinition = words[selectedIndex]
-		/* Dit au wdvc récupère le contenu de la variable selectedDefinition qui se met dans la variable definition */
-		wordDetailViewControler.definition = selectedDefinition
+		/* Dit au wdvc récupère le contenu de la variable selectedDefinition qui se met dans la variable wordDescription */
+		wordDetailViewControler.wordDescription = selectedDefinition
 	}
 	
 }

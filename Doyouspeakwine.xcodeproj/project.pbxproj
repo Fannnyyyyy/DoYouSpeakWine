@@ -13,7 +13,7 @@
 		E169A875207E6F3C0072F499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E169A873207E6F3C0072F499 /* LaunchScreen.storyboard */; };
 		E169A880207E6F3D0072F499 /* DoyouspeakwineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E169A87F207E6F3D0072F499 /* DoyouspeakwineTests.swift */; };
 		E169A88B207E6F3D0072F499 /* DoyouspeakwineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E169A88A207E6F3D0072F499 /* DoyouspeakwineUITests.swift */; };
-		E16C484320D0359D00E1C623 /* Definition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C484220D0359D00E1C623 /* Definition.swift */; };
+		E16C484320D0359D00E1C623 /* WordDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C484220D0359D00E1C623 /* WordDescription.swift */; };
 		E174D18D20D028F500D5386A /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E174D18420D028F300D5386A /* Montserrat-Light.ttf */; };
 		E174D18E20D028F500D5386A /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E174D18520D028F300D5386A /* Montserrat-Bold.ttf */; };
 		E174D18F20D028F500D5386A /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E174D18620D028F400D5386A /* Montserrat-ExtraBold.otf */; };
@@ -57,7 +57,7 @@
 		E169A886207E6F3D0072F499 /* DoyouspeakwineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoyouspeakwineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E169A88A207E6F3D0072F499 /* DoyouspeakwineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoyouspeakwineUITests.swift; sourceTree = "<group>"; };
 		E169A88C207E6F3D0072F499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E16C484220D0359D00E1C623 /* Definition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Definition.swift; sourceTree = "<group>"; };
+		E16C484220D0359D00E1C623 /* WordDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDescription.swift; sourceTree = "<group>"; };
 		E174D18420D028F300D5386A /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
 		E174D18520D028F300D5386A /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		E174D18620D028F400D5386A /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 				E17FE36B209A1CC3005F62DE /* WordListTableViewController.swift */,
 				E1F83DDD20B4841200BC405E /* WordDetailViewController.swift */,
 				E169A86E207E6F3C0072F499 /* Main.storyboard */,
-				E16C484220D0359D00E1C623 /* Definition.swift */,
+				E16C484220D0359D00E1C623 /* WordDescription.swift */,
 				E169A871207E6F3C0072F499 /* Assets.xcassets */,
 				E169A873207E6F3C0072F499 /* LaunchScreen.storyboard */,
 				E169A876207E6F3C0072F499 /* Info.plist */,
@@ -311,7 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E16C484320D0359D00E1C623 /* Definition.swift in Sources */,
+				E16C484320D0359D00E1C623 /* WordDescription.swift in Sources */,
 				E169A869207E6F3C0072F499 /* AppDelegate.swift in Sources */,
 				E17FE36C209A1CC3005F62DE /* WordListTableViewController.swift in Sources */,
 				E1F83DDE20B4841200BC405E /* WordDetailViewController.swift in Sources */,

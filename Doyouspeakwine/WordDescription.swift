@@ -1,5 +1,5 @@
 //
-//  Definition.swift
+//  WordDescription.swift
 //  Doyouspeakwine
 //
 //  Created by Fanny Dubosc on 12/06/2018.
@@ -10,7 +10,7 @@ import Foundation
 
 
 
-struct Definition {
+struct WordDescription {
 	var word : String
 	var definition : String
 	var images : [URL]
