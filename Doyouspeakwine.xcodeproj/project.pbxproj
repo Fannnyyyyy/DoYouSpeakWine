@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		364823CE2108EB28009968DC /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364823CD2108EB28009968DC /* AboutTableViewController.swift */; };
 		E169A869207E6F3C0072F499 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E169A868207E6F3C0072F499 /* AppDelegate.swift */; };
 		E169A870207E6F3C0072F499 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E169A86E207E6F3C0072F499 /* Main.storyboard */; };
 		E169A872207E6F3C0072F499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E169A871207E6F3C0072F499 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		364823CD2108EB28009968DC /* AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
 		E169A865207E6F3C0072F499 /* Doyouspeakwine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doyouspeakwine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E169A868207E6F3C0072F499 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E169A86F207E6F3C0072F499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				E169A868207E6F3C0072F499 /* AppDelegate.swift */,
 				E17FE36B209A1CC3005F62DE /* WordListTableViewController.swift */,
 				E1F83DDD20B4841200BC405E /* WordDetailViewController.swift */,
+				364823CD2108EB28009968DC /* AboutTableViewController.swift */,
 				E169A86E207E6F3C0072F499 /* Main.storyboard */,
 				E16C484220D0359D00E1C623 /* WordDescription.swift */,
 				E169A871207E6F3C0072F499 /* Assets.xcassets */,
@@ -312,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E16C484320D0359D00E1C623 /* WordDescription.swift in Sources */,
+				364823CE2108EB28009968DC /* AboutTableViewController.swift in Sources */,
 				E169A869207E6F3C0072F499 /* AppDelegate.swift in Sources */,
 				E17FE36C209A1CC3005F62DE /* WordListTableViewController.swift in Sources */,
 				E1F83DDE20B4841200BC405E /* WordDetailViewController.swift in Sources */,
