@@ -20,8 +20,18 @@ class AboutTableViewController: UITableViewController {
 	
 	@IBAction func instagramButtonClicked(_ sender: AnyObject) {
 		print("instagram clicked")
-		UIApplication.shared.openURL(URL(string: "https://instagram.com")!)
+		UIApplication.shared.openURL(URL(string: "https://instagram.com/_doyouspeakwine_")!)
 		
 	}
 	
+	@IBAction func facebookButtonClicked(_ sender: AnyObject) {
+		print("Facebook clicked")
+		UIApplication.shared.openURL(URL(string: "https://facebook.com/doyouspeakwine")!)
+	
+}
+	
+	@IBAction func twitterButtonClicked(_ sender: AnyObject) {
+		print("Twitter clicked")
+		UIApplication.shared.openURL(URL(string: "https://twitter.com/@DoYouSpeakWine")!)
+}
 }

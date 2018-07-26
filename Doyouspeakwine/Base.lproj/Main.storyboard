@@ -139,25 +139,34 @@
                                                         <action selector="instagramButtonClicked:" destination="w9p-j4-kS5" eventType="touchUpInside" id="Vjy-19-xN9"/>
                                                     </connections>
                                                 </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MiK-2d-y4f">
+                                                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MiK-2d-y4f">
                                                     <rect key="frame" x="131.5" y="6" width="112" height="30"/>
-                                                    <state key="normal" title="Button"/>
+                                                    <accessibility key="accessibilityConfiguration">
+                                                        <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                                    </accessibility>
+                                                    <state key="normal" title="Button" image="facebook_logo"/>
+                                                    <connections>
+                                                        <action selector="facebookButtonClicked:" destination="w9p-j4-kS5" eventType="touchUpInside" id="NaK-Em-eeP"/>
+                                                    </connections>
                                                 </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DqC-sT-fjp">
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DqC-sT-fjp">
                                                     <rect key="frame" x="253.5" y="6" width="111.5" height="30"/>
-                                                    <state key="normal" title="Button"/>
+                                                    <state key="normal" title="Button" image="twitter_logo"/>
+                                                    <connections>
+                                                        <action selector="twitterButtonClicked:" destination="w9p-j4-kS5" eventType="touchDragInside" id="uIs-x1-2Wk"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="MiK-2d-y4f" firstAttribute="width" secondItem="fVf-Xd-fWu" secondAttribute="width" id="3d7-2u-avz"/>
                                                 <constraint firstItem="fVf-Xd-fWu" firstAttribute="centerY" secondItem="HfR-bl-poa" secondAttribute="centerY" id="K0e-Um-yJJ"/>
                                                 <constraint firstItem="DqC-sT-fjp" firstAttribute="leading" secondItem="MiK-2d-y4f" secondAttribute="trailing" constant="10" id="TSy-VF-Bu4"/>
-                                                <constraint firstItem="MiK-2d-y4f" firstAttribute="centerY" secondItem="HfR-bl-poa" secondAttribute="centerY" id="TuW-ob-IqW"/>
                                                 <constraint firstItem="MiK-2d-y4f" firstAttribute="leading" secondItem="fVf-Xd-fWu" secondAttribute="trailing" constant="10" id="Zs2-yX-VYF"/>
                                                 <constraint firstItem="fVf-Xd-fWu" firstAttribute="leading" secondItem="HfR-bl-poa" secondAttribute="leading" constant="10" id="cer-wt-EVk"/>
                                                 <constraint firstAttribute="trailing" secondItem="DqC-sT-fjp" secondAttribute="trailing" constant="10" id="dC8-NW-yVs"/>
                                                 <constraint firstItem="DqC-sT-fjp" firstAttribute="width" secondItem="fVf-Xd-fWu" secondAttribute="width" id="fPc-jd-zLa"/>
                                                 <constraint firstItem="DqC-sT-fjp" firstAttribute="centerY" secondItem="HfR-bl-poa" secondAttribute="centerY" id="i2m-gb-O4g"/>
+                                                <constraint firstItem="MiK-2d-y4f" firstAttribute="centerX" secondItem="HfR-bl-poa" secondAttribute="centerX" id="tHK-SA-EaB"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -365,7 +374,9 @@
     </scenes>
     <resources>
         <image name="Instagram-logo" width="30" height="30"/>
+        <image name="facebook_logo" width="30" height="30"/>
         <image name="logo" width="1180" height="411"/>
+        <image name="twitter_logo" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="qV0-2C-PK6"/>
