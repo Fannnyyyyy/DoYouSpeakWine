@@ -18,6 +18,25 @@ class AboutTableViewController: UITableViewController {
 		
 	}
 	
+	override func tableView(_ tableView: UITableView, shouldHighlightRowAt indexPath: IndexPath) -> Bool {
+		let cell: UITableViewCell? = tableView.cellForRow(at: indexPath)
+		let id: String? = cell?.reuseIdentifier
+		if id == "ContactUs" {
+			return true
+		}
+		if id == "Share" {
+			return true
+		}
+		if id == "Thanks" {
+			return true
+		}
+		return false
+	}
+	
+	override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+		print("toto")
+	}
+	
 	@IBAction func instagramButtonClicked(_ sender: AnyObject) {
 		print("instagram clicked")
 		UIApplication.shared.openURL(URL(string: "https://instagram.com/_doyouspeakwine_")!)
