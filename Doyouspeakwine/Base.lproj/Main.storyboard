@@ -139,27 +139,30 @@
                                                         <action selector="instagramButtonClicked:" destination="w9p-j4-kS5" eventType="touchUpInside" id="Vjy-19-xN9"/>
                                                     </connections>
                                                 </button>
-                                                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MiK-2d-y4f">
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MiK-2d-y4f">
                                                     <rect key="frame" x="131.5" y="6" width="112" height="30"/>
                                                     <accessibility key="accessibilityConfiguration">
                                                         <accessibilityTraits key="traits" button="YES" image="YES"/>
                                                     </accessibility>
-                                                    <state key="normal" title="Button" image="facebook_logo"/>
+                                                    <state key="normal" image="facebook_logo"/>
                                                     <connections>
                                                         <action selector="facebookButtonClicked:" destination="w9p-j4-kS5" eventType="touchUpInside" id="NaK-Em-eeP"/>
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DqC-sT-fjp">
                                                     <rect key="frame" x="253.5" y="6" width="111.5" height="30"/>
-                                                    <state key="normal" title="Button" image="twitter_logo"/>
+                                                    <state key="normal" image="twitter_logo">
+                                                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
                                                     <connections>
-                                                        <action selector="twitterButtonClicked:" destination="w9p-j4-kS5" eventType="touchDragInside" id="uIs-x1-2Wk"/>
+                                                        <action selector="twitterButtonClicked:" destination="w9p-j4-kS5" eventType="touchUpInside" id="xdF-Xn-diy"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="MiK-2d-y4f" firstAttribute="width" secondItem="fVf-Xd-fWu" secondAttribute="width" id="3d7-2u-avz"/>
                                                 <constraint firstItem="fVf-Xd-fWu" firstAttribute="centerY" secondItem="HfR-bl-poa" secondAttribute="centerY" id="K0e-Um-yJJ"/>
+                                                <constraint firstItem="MiK-2d-y4f" firstAttribute="centerY" secondItem="HfR-bl-poa" secondAttribute="centerY" id="MsM-gg-LCD"/>
                                                 <constraint firstItem="DqC-sT-fjp" firstAttribute="leading" secondItem="MiK-2d-y4f" secondAttribute="trailing" constant="10" id="TSy-VF-Bu4"/>
                                                 <constraint firstItem="MiK-2d-y4f" firstAttribute="leading" secondItem="fVf-Xd-fWu" secondAttribute="trailing" constant="10" id="Zs2-yX-VYF"/>
                                                 <constraint firstItem="fVf-Xd-fWu" firstAttribute="leading" secondItem="HfR-bl-poa" secondAttribute="leading" constant="10" id="cer-wt-EVk"/>
